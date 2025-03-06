@@ -27,7 +27,7 @@ done | awk -v lin=$LINES -v col=$COLUMNS '
   # changed by me
   function heartR(w,B){return (1-B+B*rand())*(sin(w)*sqrt(cos(w))/(sin(w)+7/5)-2*sin(w)+2)}
   BEGIN{
-  copyright="С ПРАЗДНИКОМ! (c) Tagd 2025"
+  copyright="С ПРАЗДНИКОМ! (c) Tagd-Tagd 2025"
   copyright=sprintf("%*s", int((col+length(copyright))/2),copyright)
   pi = atan2(0,-1)
   maxx=2.23
