@@ -36,7 +36,7 @@ done | awk -v lin=$LINES -v col=$COLUMNS '
   h_char="·♡♥♥♡· "
   lh=length(h_char)
   for(i=1;i<=lh;i++){H[i-1]=substr(h_char,i,1)}
-  scr_len=(lin-1)*col
+  scr_len=(lin-2)*col
   scr=sprintf("%*s",scr_len,"")
   scr=scr copyright
   kY=int(lin*0.8)
