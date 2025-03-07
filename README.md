@@ -17,4 +17,4 @@ chmod +x ./heart.sh
 ### Dependencies
 
 **bash**
-**awk**
+**gawk**
